@@ -6,7 +6,7 @@ class HelloWorld {
       blocks: [
         {
           opcode: 'hello',
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.HAT,
           text: 'Hello!'
         }
       ]
