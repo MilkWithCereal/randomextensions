@@ -1,21 +1,21 @@
-class random1 {
+class balls {
   getInfo() {
     return {
-      id: 'milk1',
-      name: 'Create Window',
+      id: 'balls',
+      name: 'It works!',
       blocks: [
         {
-          opcode: 'block1',
-          blockType: Scratch.BlockType.COMMAND,
-          text: 'Cock and ball torture'
+          opcode: 'death',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'No'
         }
       ]
     };
   }
 
-  block1() {
-    return 'From the Wikipedia, The free encyclopedia.;
+  death() {
+    return 'Fuck you.';
   }
 }
 
-Scratch.extensions.register(new random1());
+Scratch.extensions.register(new balls());
