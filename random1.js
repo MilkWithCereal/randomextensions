@@ -1,7 +1,7 @@
 class random1 {
   getInfo() {
     return {
-      id: '1',
+      id: 'milk1',
       name: 'Create Window',
       blocks: [
         {
