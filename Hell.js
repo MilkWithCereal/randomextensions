@@ -1,12 +1,12 @@
 class random1 {
   getInfo() {
     return {
-      id: 'helloworld',
-      name: 'It works!',
+      id: '1',
+      name: 'Create Window',
       blocks: [
         {
           opcode: 'block1',
-          blockType: Scratch.BlockType.HAT,
+          blockType: Scratch.BlockType.COMMAND,
           text: ''
         }
       ]
@@ -14,7 +14,7 @@ class random1 {
   }
 
   hello() {
-    return 'const myWindow = window.open("", "", "width=200, height=100"); myWindow.focus();';
+    return 'parent.document.body.style.backgroundColor = "lightblue"';
   }
 }
 
