@@ -1,8 +1,8 @@
-class HelloWorld {
+class MilkTools {
   getInfo() {
     return {
       id: 'milktools',
-      name: 'MilkTools',
+      name: 'Milk',
       blocks: [
         {
           opcode: 'open',
@@ -18,4 +18,4 @@ class HelloWorld {
   }
 }
 
-Scratch.extensions.register(new milktools());
+Scratch.extensions.register(new MilkTools());
