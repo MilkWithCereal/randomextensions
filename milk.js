@@ -1,20 +1,20 @@
 class HelloWorld {
   getInfo() {
     return {
-      id: 'helloworld',
-      name: 'It works!',
+      id: 'milktools',
+      name: 'MilkTools',
       blocks: [
         {
-          opcode: 'hello',
-          blockType: Scratch.BlockType.HAT,
-          text: 'Hello!'
+          opcode: 'open',
+          blockType: Scratch.BlockType.COMMAND,
+          text: 'New Window'
         }
       ]
     };
   }
 
-  hello() {
-    return 'World!';
+  open() {
+    return 'myWindow = window.open('', '', 'width=400, height=400');';
   }
 }
 
