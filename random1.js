@@ -2,11 +2,11 @@ class balls {
   getInfo() {
     return {
       id: 'balls',
-      name: 'It works!',
+      name: 'man',
       blocks: [
         {
           opcode: 'death',
-          blockType: Scratch.BlockType.REPORTER,
+          blockType: Scratch.BlockType.HAT,
           text: 'No'
         }
       ]
